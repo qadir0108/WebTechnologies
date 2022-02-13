@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>Student Admission System</title>
+<script>
+
+</script>
+</head>
+
+<body bgcolor="#DEDEDE">
+<center>
+
+<h1>Student Admission System</h1>
+<form method="POST" action="save.php">
+<table border="1">
+	<input type="hidden" id="password" name="password" value="hidden fields will not be posted to server" />
+	<tr>
+		<td>Roll #:</td>
+		<td><input type="text" id="rollno" name="rollno" size="5" maxlength="5"/></td>
+	</tr>
+	<tr>
+		<td>Name:</td>
+		<td><input type="text" id="name" name="name" size="26" maxlength="150"/></td>
+	</tr>
+	<tr>
+		<td>Marks:</td>
+		<td><input type="text" id="marks" name="marks" size="5" maxlength="5"/></td>
+	</tr>
+	<tr>
+		<td>Gender:</td>
+		<td>
+			<input type="radio" id="male" name="gender" value="male">
+			Male<br>
+			<input type="radio" id="female" name="gender" value="female">
+			Female<br>
+		</td>
+	</tr>
+	<tr>
+		<td>Class:</td>
+		<td>
+			<select id="class" name="class">
+				<option value="-1">--Select Class--</option>
+				<option value="1">BS(IT)</option>
+				<option value="2">BS(Eng)</option>
+				<option value="3">BS(Socialogy)</option>
+				<option value="4">BS(PA)</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>Educational Background:</td>
+		<td>
+			<input type="checkbox" id="pass" name="pass[]" value="programming">Mathematics<br>
+			<input type="checkbox" id="pass" name="pass[]" value="programming">Bio<br>
+			<input type="checkbox" id="pass" name="pass[]" value="oop">Computer Science<br>
+		</td>
+	</tr>
+	<tr>
+		<td>Other Information:</td>
+		<td><textarea id="info" name="info" maxlength="250"></textarea></td>
+	</tr>
+	
+	<tr>
+		<td style="text-align: right;"><input type="reset" value="Clear"/></td>
+		<td><input type="submit" value="Save" name="submit"/></td>
+	</tr>
+</table>
+</form>
+</center>
+</body>
+</html>
