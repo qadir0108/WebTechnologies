@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	 <!-- Optional JavaScript; choose one of the two! -->
+	 <script src="bootstrap/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <title>Student Admission System</title>
+  </head>
+  <body>
+	<div class="container-fluid">
+    <h1 class="alert alert-success">Student Admission System</h1>
+	<form method="POST" action="save.php" class="form-horizontal" >
+		
+		<input type="hidden" id="password" name="password" value="hidden fields will not be posted to server" />
+
+		<div class="form-group">
+			<label for="rollno">Roll #:</label>
+			<input class="form-control" type="number" id="rollno" name="rollno" min="1" max="200"/>
+		</div>
+		
+		<div class="form-group">
+			<label for="name">Name:</label>
+			<input class="form-control" type="text" id="name" name="name" size="26" maxlength="150"/>
+		</div>
+		<div class="form-group">
+			<label for="rollno">Marks:</label>
+			<input class="form-control" type="number" id="marks" name="marks" min="" max="100"/>
+		</div>
+		<div class="form-group">
+			<label for="gender">Gender:</label>
+			<div class="radio">
+				<label><input type="radio" id="male" name="gender" value="male" checked>Male</label>
+			</div>
+			<div class="radio">
+				<label><input type="radio" id="female" name="gender" value="female">Female</label>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="class">Class:</label>
+			<select id="class" name="class" class="form-control" >
+				<option value="-1">--Select Class--</option>
+				<option value="1">BS(IT)</option>
+				<option value="2">BS(Eng)</option>
+				<option value="3">BS(Socialogy)</option>
+				<option value="4">BS(PA)</option>
+			</select>
+		</div>
+		<div class="form-group">
+			<label for="pass">Educational Background:</label>
+			<div class="checkbox">
+				<label><input type="checkbox" id="pass" name="pass[]" value="programming">Mathematics</label>
+			  </div>
+			  <div class="checkbox">
+				<label><input type="checkbox" id="pass" name="pass[]" value="programming">Bio</label>
+			  </div>
+			  <div class="checkbox">
+				<label><input type="checkbox" id="pass" name="pass[]" value="oop">Computer Science</label>
+			  </div>
+		</div>	
+			
+		<div class="form-group">
+			<label for="info">Other Information:</label>
+			<textarea id="info" name="info" maxlength="250" class="form-control" rows="5"></textarea>
+		</div>
+
+		<div class="form-group">
+			<input type="reset" value="Clear" class="btn btn-primary"/>
+			<input type="submit" value="Save" name="submit" class="btn btn-success"/>
+		</div>
+			
+		</form>
+	</div>
+  </body>
+</html>
