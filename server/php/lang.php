@@ -1,3 +1,5 @@
+<h1>This is my Page</h1>
+
 <?php
 
 echo 'Kamran' . ' Qadir';

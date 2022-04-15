@@ -9,7 +9,7 @@ session_start();
     echo $_SESSION["rollno"];
 ?>
 
-<!-- <br/> Printing Session Array <br/>
+<br/> Printing Session Array <br/>
 <?php
 print_r($_SESSION);
-?> -->
+?>

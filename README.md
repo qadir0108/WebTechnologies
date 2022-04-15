@@ -19,9 +19,9 @@
 - Chapt # 15 Paddings 
 
 **Twitter Bootstrap**
-- Form 
-- Table
-- Grid System
+- Bootstrap Form 
+- Bootstrap Table
+- Bootstrap Grid System
 
 **JavaScript**
 - Chapt # 12 Functions
@@ -36,6 +36,7 @@
 - HTML Chapt # 8 Web Storage
 - Admission form with MySQL & PostGreSQL
 - Ticket Reservation System
+- PHP API (Application Programming Interface)
 
 **Theme**
 - [NiceAdmin](https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/)
