@@ -1,0 +1,646 @@
+.navbar{
+    margin-bottom: 0px;
+}
+
+#bannerImage{
+    padding-top:75px;
+    padding-bottom:50px;
+    margin-bottom: 20px;
+    text-align:center;
+    color:#f8f8f8;
+    background:url(../img/intro-bg_1.jpg);
+    background-size:cover;
+}
+
+#bannerContent{
+    position:relative;
+    padding-top:6%;
+    padding-bottom:6%;
+    margin-top:12%;
+    margin-bottom:12%;
+    background-color:rgba(0,0,0,0.7);
+    max-width:660px;
+}
+
+
+html { 
+    min-height:100%;
+    position:relative;    
+} 
+
+
+@media (min-width:320px){
+    #autoResize{
+        font-size:12px;
+    }
+}
+@media (min-width:481px){
+    #autoResize{
+        font-size:16px;
+    }
+}
+@media (min-width:641px){
+    #autoResize{
+        font-size:18px;
+    }
+}
+@media (min-width:961px){
+    #autoResize{
+        font-size:20px;
+    }
+}
+@media (min-width:1000px){
+    #autoResize{
+        font-size:26px;
+    }
+}
+
+
+header ul li{
+    list-style: none;
+    display: inline;
+}
+header ul{
+    display: inline;
+}
+header {
+    background-color: #e8cba9;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    /* color: black; */
+}
+header ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+header ul li a:hover{
+    color: rgb(202, 44, 44);
+    text-decoration: none;
+}
+
+
+.valing {
+    display: flex;
+    align-items: center;
+}
+
+
+.drycake {
+    background-color: #e8cba9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.drycake .titledry {
+    font-size: 22px;
+    color: #8b0000;
+    margin-bottom: 5px;
+}
+
+.drycake .name {
+    font-size: 38px;
+    color: #a7552d;
+    padding: 10px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    line-height: 48px;
+    margin-top: 5px;
+}
+
+.drycake .whitetext {
+    font-size: 26px;
+    padding-bottom: 20px;
+    line-height: 35px;
+    color: #ffffff;
+}
+
+.drycake hr {
+    width: 320px;
+    border-style: solid;
+    text-align: center;
+    border: 1px solid #ffffff;
+    margin: auto;
+}
+
+ .btn-outline-danger {
+    color: #8b0000;
+    border-color: #8b0000;
+}
+
+ .btn-outline-danger:hover {
+    color: #fff;
+    background-color: #8b0000;
+    border-color: #8b0000;
+}
+
+.drycake .btn-outline-danger:focus {
+    box-shadow: none !important;
+    transform: 98;
+}
+
+.drycake .btn:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px #8b0000 !important;
+    /* Lowering the shadow */
+}
+
+/* Choco Cake CSS */
+
+.chococake {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #eabbb4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.chococake .titledry {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.chococake .name {
+    font-size: 38px;
+    color: #ffffff;
+    padding: 10px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    line-height: 48px;
+    margin-top: 5px;
+}
+
+.chococake .whitetext {
+    font-size: 26px;
+    padding-bottom: 20px;
+    line-height: 35px;
+    color: #ffffff;
+}
+
+.chococake hr {
+    width: 320px;
+    border-style: solid;
+    text-align: center;
+    border: 1px solid #ffffff;
+    margin: auto;
+}
+
+.chococake .btn-outline-danger {
+    color: #8b0000;
+    border-color: #8b0000;
+}
+
+.chococake .btn-outline-danger:hover {
+    color: #fff;
+    background-color: #8b0000;
+    border-color: #8b0000;
+}
+
+.chococake .btn-outline-danger:focus {
+    box-shadow: none !important;
+    transform: 98;
+}
+
+.chococake .btn:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px #8b0000 !important;
+    /* Lowering the shadow */
+}
+
+/* Bread CSS */
+
+.bread {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #eabbb4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bread .titledry {
+    font-size: 62px;
+    color: #a7552d;
+    margin-bottom: 5px;
+}
+
+.bread .name {
+    font-size: 38px;
+    color: #ffffff;
+    padding: 10px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    line-height: 48px;
+    margin-top: 5px;
+}
+
+.bread hr {
+    width: 320px;
+    border-style: solid;
+    text-align: center;
+    border: 1px solid #ffffff;
+    margin: auto;
+}
+
+.bread .btn-outline-danger {
+    color: #8b0000;
+    border-color: #8b0000;
+}
+
+.bread .btn-outline-danger:hover {
+    color: #fff;
+    background-color: #8b0000;
+    border-color: #8b0000;
+}
+
+.bread .btn-outline-danger:focus {
+    box-shadow: none !important;
+    transform: 98;
+}
+
+.bread .btn:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px #8b0000 !important;
+    /* Lowering the shadow */
+}
+
+/* Pastry */
+
+.pastry {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #f6b99d;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pastry .titledry {
+    font-size: 52px;
+    color: #723b1f;
+    margin-bottom: 5px;
+}
+
+.pastry .name {
+    font-size: 38px;
+    color: #ffffff;
+    padding: 10px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    line-height: 48px;
+    margin-top: 5px;
+}
+
+.pastry hr {
+    width: 320px;
+    border-style: solid;
+    text-align: center;
+    border: 1px solid #ffffff;
+    margin: auto;
+}
+
+.pastry .btn-outline-danger {
+    color: #8b0000;
+    border-color: #8b0000;
+}
+
+.pastry .btn-outline-danger:hover {
+    color: #fff;
+    background-color: #8b0000;
+    border-color: #8b0000;
+}
+
+.pastry .btn-outline-danger:focus {
+    box-shadow: none !important;
+    transform: 98;
+}
+
+.pastry .btn:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px #8b0000 !important;
+    /* Lowering the shadow */
+}
+
+/* Snacks */
+
+.snack {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #ccd8b0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.snack .titledry {
+    font-size: 52px;
+    color: #f7a755;
+    margin-bottom: 5px;
+}
+
+.snack .name {
+    font-size: 38px;
+    color: #ffffff;
+    padding: 10px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    line-height: 48px;
+    margin-top: 5px;
+}
+
+.snack hr {
+    width: 320px;
+    border-style: solid;
+    text-align: center;
+    border: 1px solid #ffffff;
+    margin: auto;
+}
+
+.snack .btn-outline-danger {
+    color: #8b0000;
+    border-color: #8b0000;
+}
+
+.snack .btn-outline-danger:hover {
+    color: #fff;
+    background-color: #8b0000;
+    border-color: #8b0000;
+}
+
+.snack .btn-outline-danger:focus {
+    box-shadow: none !important;
+    transform: 98;
+}
+
+.snack .btn:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px #8b0000 !important;
+    /* Lowering the shadow */
+}
+
+/* Nimko CSS */
+
+.nimko {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #e8cba9;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+}
+
+.nimko .right_border, .drum .right_border {
+    border-right: 5px solid #fff;
+}
+
+.nimko .titledry {
+    font-size: 52px;
+    color: #f7a755;
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+
+.nimko img {
+    max-width: 300px;
+}
+
+.nimko .name {
+    font-size: 38px;
+    color: #ffffff;
+    padding: 10px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    line-height: 48px;
+    margin-top: 5px;
+}
+
+.nimko hr {
+    width: 320px;
+    border-style: solid;
+    text-align: center;
+    border: 1px solid #ffffff;
+    margin: auto;
+}
+
+.nimko .btn-outline-danger {
+    color: #8b0000;
+    border-color: #8b0000;
+    margin-bottom: 50px;
+}
+
+.nimko .btn-outline-danger:hover {
+    color: #fff;
+    background-color: #8b0000;
+    border-color: #8b0000;
+}
+
+.nimko .btn-outline-danger:focus {
+    box-shadow: none !important;
+    transform: 98;
+}
+
+.nimko .btn:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px #8b0000 !important;
+    /* Lowering the shadow */
+}
+
+/* Drum CSS */
+
+.drum {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #e8cba9;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+}
+
+.drum .titledry {
+    font-size: 52px;
+    color: #f7a755;
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+
+.drum img {
+    max-width: 300px;
+}
+
+.drum .name {
+    font-size: 38px;
+    color: #ffffff;
+    padding: 10px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    line-height: 48px;
+    margin-top: 5px;
+}
+
+.drum hr {
+    width: 320px;
+    border-style: solid;
+    text-align: center;
+    border: 1px solid #ffffff;
+    margin: auto;
+}
+
+.drum .btn-outline-danger {
+    color: #8b0000;
+    border-color: #8b0000;
+    margin-bottom: 50px;
+}
+
+.drum .btn-outline-danger:hover {
+    color: #fff;
+    background-color: #8b0000;
+    border-color: #8b0000;
+}
+
+.drum .btn-outline-danger:focus {
+    box-shadow: none !important;
+    transform: 98;
+}
+
+.drum .btn:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px #8b0000 !important;
+    /* Lowering the shadow */
+}
+
+/******************************************** Biscuits page start ******************************************************* */
+
+.sec_one {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sec_one .card-title {
+    font-size: 18px;
+    line-height: 26px;
+    color: #000;
+    text-transform: capitalize;
+    padding-bottom: 6px;
+    font-weight: 400;
+}
+
+.sec_one .price {
+    font-size: 19px;
+    color: #c0153b;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.sec_one .card {
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.btnpatent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btnpatent button {
+    border: none;
+    border-radius: 5px;
+}
+
+.btnpatent input {
+    width: 20%;
+    height: 26px;
+    text-align: center;
+    border: none;
+}
+.btnpatent button:hover{
+    background-color: #8b0000;
+    color: #fff;
+}
+.btnpatent button:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px #8b0000 !important;
+    /* Lowering the shadow */
+}
+.btnpatent input:focus{
+    outline: none;
+}
+.foter ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.foter ul li a:hover{
+    color: #8b0000;
+}
+footer{
+    background-color: #e8cba9;
+    padding: 30px 0px;
+  
+}
+
+
+
+/* biscuits css */
+
+.bc-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #c07d4d;
+}
+.busname{
+    font-size: 19px;
+    display: block;
+    padding: 15px 10px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+/* biscuits css end */
+
+/* pastry css */
+.pc-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f9cebe;
+}
+.psname{
+    font-size: 19px;
+    display: block;
+    padding: 15px 10px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+/* pastry css end */
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+#mainarea img{
+    height: 250px;
+}
+.navbar {
+    border-radius: 0px !important;
+}
+#mainarea h1{
+    padding-bottom: 30px;
+}
+.shadow{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.billingform{
+    padding: 50px;
+    margin-bottom: 30px;
+}
+.subfooter{
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+}

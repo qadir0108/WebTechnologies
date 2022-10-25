@@ -1,3 +1,9 @@
+<!--
+1. Reservation Form
+2. Javascript Validation
+3. Database Insert when posted
+4. Listing / View all records by SELECT *
+ -->
 <html>
 <head>
 <title>Ticket Reservation System</title>
@@ -11,6 +17,8 @@ function validate() {
 	alert('Passenger Name is required');
 	return false;
  	}
+	 // 123456789 false
+	 
  if (!regex.test(passenger_name)) {
 	alert('Passenger Name should be text only');
 	return false;
@@ -167,7 +175,7 @@ echo "<td>" .$booking['travel_to']."</td>";
 echo "<td>" .$booking['travel_date']."</td>";
 echo "<td>" .$booking['travel_time']."</td>";
 echo "<td>" .$booking['no_of_seats']."</td>";
-echo "<td> <a href ='view.php?booking_id=$id'>Edit</a></td>";
+echo "<td> <a href ='edit.php?booking_id=$id'>Edit</a></td>";
 echo "<td> <a href ='delete.php?booking_id=$id'>Delete</a></td>";
 echo "</tr>";
 }
