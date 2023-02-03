@@ -1,0 +1,29 @@
+/* Tag Selector */
+body {
+    background-color: lightseagreen;
+}
+
+/* Tag Selector */
+p 
+{
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+
+/* ID Selector */
+#p1 {
+    background-color: black;
+}
+
+#p2 {
+    font-size: 100px;
+}
+
+/* Class Selector */
+.student {
+    background-color: chocolate;
+    font-size: 50px;
+    color: white;
+}
