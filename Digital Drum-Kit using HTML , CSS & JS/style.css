@@ -1,0 +1,55 @@
+/*  First of all i will remove the default padding and margin */
+ *{
+padding: 0;
+margin: 0;
+ box-sizing: border-box;
+ }
+  /* Now i am defining the body of the Web-page here  */
+   body{
+     /* Putting a suitable background image , i have provide three different backgrounds here ,u can un-comment background of your own choice*/
+      /* background-image: url(bg/bg.jpg); */
+      background-image: url(bg/bg2.jpg);
+      /* background-image: url(bg/bg3.jpg); */
+       background-repeat: no-repeat;
+     overflow: hidden;
+     background-size: cover;
+     /*  placing a suitable Font family */
+
+   }
+
+   .drum-set{
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  a way to placing the content  in center  */
+    margin: 100px auto;
+
+   }
+    .key{
+       width: 60px;
+       height: 60px;
+       text-align: center;
+       border: 2px solid white;  
+       margin: 10px;
+       transition: all 0.07s;
+       color: whitesmoke;
+       
+    }
+ .key kbd{
+     width: 60px;
+     display: block;
+     font-size: 2rem;
+ }
+  .key span{
+     width: 60px;
+     display: block;
+  }
+ 
+ /*  adding a class for javascript  */
+  .playing{
+     border :  4px solid red;
+     transform: scale(1.1);
+  
+  }
+  
