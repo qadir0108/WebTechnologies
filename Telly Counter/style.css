@@ -1,0 +1,16 @@
+ /* adding google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  h1 {
+    font-size: 4rem;
+  }
+ span{
+     font-size: 6rem;
+ }
+ 
