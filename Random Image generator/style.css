@@ -1,0 +1,39 @@
+body{
+     padding: 0;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     font-family: cursive;
+     background-color: brown;
+}
+
+.image-container{
+     text-align: center;
+}
+
+.image-container img{
+     margin: 10px;
+     border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.8);
+     /* below lines acts as a pre-loader */ 
+     background-color: rgb(241, 181, 181);
+     width: 300px;
+     height: 300px;
+}
+
+.btn{
+     background-color: slateblue;
+     border: none;
+     padding: 10px 20px;
+     margin: 20px;
+     color: white;
+     border-radius: 8px;
+     box-shadow: rgba(0, 0, 0, 0.8);
+     cursor: pointer;
+}
+
+.btn:hover{
+     opacity: 0.9;
+}
+
+
