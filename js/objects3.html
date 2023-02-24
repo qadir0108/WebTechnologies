@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>BZU Lodhran</title>
+        <style></style>
+        <script>
+            // Third way of Object creation
+            function Student() {
+                this.RollNumber = 123;
+                this.Name = 'Kamran Qadir';
+                this.Marks = 200;
+
+                this.Show = function() {
+                    debugger
+
+                }
+
+                this.Save = SaveData;
+            }
+            
+            function SaveData() {
+                debugger
+            }
+
+            var student = new Student();
+            document.write(student.RollNumber);
+            document.write(student.Name);
+            document.write(student.Marks);
+            student.Show();
+            student.Save();
+
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
