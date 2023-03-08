@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Potta+One&display=swap");
+/* footer font */
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #2C3333; */
+  background: radial-gradient(#4f46e4 15%, transparent 16%), repeating-linear-gradient(0deg, transparent 6.5%, #ffffff 7%, #ffffff 9%, transparent 10%), linear-gradient(45deg, transparent 49%, #4f46e4 49%, #4f46e4 51%, transparent 51%), linear-gradient(-45deg, transparent 49%, #4f46e4 49%, #4f46e4 51%, transparent 51%);
+        background-size: 3em 3em;
+        background-color: #ffffff;
+        opacity: 1
+}
+
+.container {
+  margin-top: 10rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20rem;
+  padding: 26px;
+  border-radius: 10px;
+  /* adding box shadow using tool */
+  box-shadow: 0px 20px 22px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 20px 22px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 20px 22px 0px rgba(0,0,0,0.75);
+}
+
+#gradient-box {
+  height: 8rem;
+  width: 16rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+  background: linear-gradient(45deg, rgb(241, 29, 14), rgb(11, 11, 225));
+}
+
+.copycode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #f1f5fc;
+  border-radius: 5px;
+  border: 1px solid #cfd5d5;
+  margin-bottom: 10px;
+}
+
+#color-code {
+  width: 100%;
+  color: #044db4;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 10px 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+#copyBtn {
+  width: 30px;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+/* footer */
+.footer {
+  background-color: rgba(0,0,0,0.75);
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.footer p {
+  margin: 0;
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    height: 40px;
+  }
+}
+/* animated */
+.footer p {
+  margin: 0;
+  animation: moveRightLeft 6s infinite ease-in-out;
+}
+
+@keyframes moveRightLeft {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(50);
+  }
+}
+.logo {
+  font-family: "Moon Dance", cursive;
+  font-size: 1.1rem;
+}
