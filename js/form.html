@@ -5,11 +5,30 @@
     </title>
     <style>
     </style>
+    <script>
+        function validate() {
+            var txtRollNumber = document.getElementById('txtRollNumber');
+            if(txtRollNumber.value == '')
+            {
+                window.alert('Please enter Roll Number');
+                return false;
+            }
+
+            var txtName = document.getElementById('txtName');
+            if(txtName.value == '')
+            {
+                window.alert('Please enter Name');
+                return false;
+            }
+
+            return true;
+        }
+    </script>
 </head>
 <body>
     <center>
         
-        <form method="get">
+        <form method="get" action="save.php" onsubmit="return validate();">
             <table border="1">
                 <tr>
                     <th colspan="2">
@@ -19,12 +38,12 @@
                 <tr>
                     <td>Roll Number : </td>
                     <td>
-                        <input type="text" id="txtRollNumber" placeholder="Roll Number" maxlength="2"/>
+                        <input type="text" id="txtRollNumber" name="txtRollNumber" placeholder="Roll Number" maxlength="2"/>
                     </td>
                 </tr>
                 <tr>
                     <td>Name : </td>
-                    <td><input type="text" placeholder="Name" /></td>
+                    <td><input type="text" id="txtName" name="txtName" placeholder="Name" /></td>
                 </tr>
                 <tr>
                     <td>Marks : </td>
