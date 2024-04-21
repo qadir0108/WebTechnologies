@@ -1,20 +1,23 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>
-    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BZU</title>
     <script>
-        function hello() {
-            //alert("Hello");
-            console.log("Hello in console");
+        function welcome() {
+            var name = 'Kamran';
+            console.log(name);
         }
-        function print() {
-            console.log(new Date() + " Typing...");
+        function bye() {
+            console.log('Bye');
+        }
+        function key() {
+            console.log('vsdfsdfdsfsd');
         }
     </script>
 </head>
-<body>
-Welcome!
-Enter Name : <input type="text" onkeypress="print()" >
-<input type="button" onclick="hello()" value="Apply" />
+<body onload="welcome()" onmousemove="bye()" onkeypress="key()">
+    
 </body>
 </html>
