@@ -1,0 +1,12 @@
+[
+    {
+        "RollNumber": 123,
+        "Name": "Kamran",
+        "Marks": 321
+    },
+    {
+        "RollNumber": 321,
+        "Name": "Qadir",
+        "Marks": 123
+    }
+]
