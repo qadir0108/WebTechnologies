@@ -40,10 +40,10 @@
 - [Admission form with MySQL & PostGreSQL](https://github.com/qadir0108/WebTechnologies/tree/main/server/php/admission)
 - [Ticket Reservation System](https://github.com/qadir0108/WebTechnologies/tree/main/server/php/trs)
 - [Login System](https://github.com/qadir0108/WebTechnologies/tree/main/server/php/login)
-- [Login System](https://github.com/qadir0108/WebTechnologies/tree/main/server/php/login)
 
 **Theme**
 - [NiceAdmin](https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/)
+- [Theme working Login/Logout](https://github.com/qadir0108/WebTechnologies/tree/main/server/php/trs2)
 
 **MERN Stack**
 - [MERN Stack Tutorial](https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-1/)
