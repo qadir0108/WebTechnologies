@@ -45,3 +45,8 @@
 
 **MERN Stack**
 - [MERN Stack Tutorial](https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-1/)
+
+**ASP.NET API**
+- [ASP.NET API](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-8.0&tabs=visual-studio)
+
+## BzuWeb API project
