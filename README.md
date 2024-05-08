@@ -48,5 +48,4 @@
 
 **ASP.NET API**
 - [ASP.NET API](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-8.0&tabs=visual-studio)
-
-## BzuWeb API project
+- [BzuWeb API project](https://github.com/qadir0108/WebTechnologies/tree/main/server/aspnet)
