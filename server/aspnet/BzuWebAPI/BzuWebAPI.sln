@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BzuWebAPI", "BzuWebAPI\BzuWebAPI.csproj", "{58B0B33B-EA0B-47BA-B953-4EFB973590DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58B0B33B-EA0B-47BA-B953-4EFB973590DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B0B33B-EA0B-47BA-B953-4EFB973590DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B0B33B-EA0B-47BA-B953-4EFB973590DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B0B33B-EA0B-47BA-B953-4EFB973590DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE185F39-A790-45E5-B516-FB90FF8E6ED3}
+	EndGlobalSection
+EndGlobal

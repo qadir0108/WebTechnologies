@@ -1,0 +1,6 @@
+@BzuWebAPI_HostAddress = http://localhost:5228
+
+GET {{BzuWebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
